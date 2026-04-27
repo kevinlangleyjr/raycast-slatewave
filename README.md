@@ -12,6 +12,8 @@ A dark [Raycast](https://www.raycast.com) theme on a slate foundation with a tea
 
 > _Slate below, teal above._
 
+![Slatewave preview](docs/preview.png)
+
 </div>
 
 ---
