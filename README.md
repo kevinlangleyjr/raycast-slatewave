@@ -34,21 +34,17 @@ Slatewave maps the twelve Raycast theme tokens onto the Slatewave palette:
 
 Custom Raycast themes require an active **Raycast Pro** subscription.
 
-### Import via Theme Studio
+### One-click via themes.ray.so
 
-1. Open Raycast and search for **Theme Studio** (or run `Manage Themes → Create New Theme`).
-2. Open `slatewave.json` in this repo and copy the contents.
-3. In Theme Studio, choose **Import Theme** and paste the JSON.
-4. Set Slatewave as your active theme in **Raycast Settings → Appearance**.
+[**Add Slatewave to Raycast →**](https://themes.ray.so?version=1&name=Slatewave&colors=%23282c34,%231e293b,%23e2e8f0,%235eead4,%235eead4,%23fb7185,%23ff4500,%23fbbf24,%235eead4,%2338bdf8,%23b388ff,%23f472b6&appearance=dark)
 
-### From a local clone
+The link opens themes.ray.so with the Slatewave palette pre-loaded. Click **Add to Raycast** on that page and Raycast will deep-link the theme into your library — no JSON paste, no manual entry.
 
-```sh
-git clone https://github.com/kevinlangleyjr/raycast-slatewave \
-  ~/Development/raycast-slatewave
-```
+After install, set Slatewave as your active theme in **Raycast Settings → Themes** (or via the Switch Theme command).
 
-Then follow the import steps above.
+### Manual fallback
+
+The full theme JSON lives at [`slatewave.json`](slatewave.json) for forks, palette diffs, or rebuilding the share URL after a colour change.
 
 ---
 
